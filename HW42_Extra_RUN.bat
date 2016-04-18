@@ -68,7 +68,7 @@ ECHO Executing Java programm Selenium Web driver...
 
 ECHO Executing Java programm HtmlUnit driver...
 java -cp C:\%WS_DIR%\%REPO_NAME%\target\Fat-%APP_VERSION%.jar %MAIN_CLASS_04% -h >> report_HW42-Extra-List-%APP_VERSION%-%MAIN_CLASS_04%-Runner.txt
-java -cp C:\%WS_DIR%\%REPO_NAME%\target\Fat-%APP_VERSION%.jar %MAIN_CLASS_04% -l http://www.youtube.com|YouTube https://www.wikipedia.org|Wikipedia http://git-scm.com|Git http://www.apple.com|Apple https://www.google.com|Google https://www.ups.com/index.html|Delivery Service from UPS https://rexter.com|Rexter http://www.youtube.com|A https://www.wikipedia.org|B http://git-scm.com|C" "http://www.apple.com|D https://www.google.com|E https://www.ups.com/index.html|F https://rexter.com|G >> report_HW42-Extra-List-%APP_VERSION%-%MAIN_CLASS_04%-Runner.txt
+java -cp C:\%WS_DIR%\%REPO_NAME%\target\Fat-%APP_VERSION%.jar %MAIN_CLASS_04% -l "http://www.youtube.com|YouTube" "https://www.wikipedia.org|Wikipedia" "http://git-scm.com|Git" "http://www.apple.com|Apple" "https://www.google.com|Google" "https://www.ups.com/index.html|Delivery Service from UPS" "https://rexter.com|Rexter" "http://www.youtube.com|A" "https://www.wikipedia.org|B" "http://git-scm.com|C" "http://www.apple.com|D" "https://www.google.com|E" "https://www.ups.com/index.html|F" "https://rexter.com|G" >> report_HW42-Extra-List-%APP_VERSION%-%MAIN_CLASS_04%-Runner.txt
 GOTO END
 
 :EXIT_JAVA
