@@ -90,3 +90,5 @@ GOTO END
 :END
 ECHO DONE. Bye!
 CD\
+
+PAUSE

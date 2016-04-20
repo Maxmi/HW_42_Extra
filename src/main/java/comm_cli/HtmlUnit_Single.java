@@ -134,6 +134,7 @@ public class HtmlUnit_Single {
 					System.out.println();
 				}
 
+				driver.quit();
 		}
 	
 		private void help() {
